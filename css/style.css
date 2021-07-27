@@ -15,6 +15,10 @@ body {
   min-height: 20px;
 }
 
+.container-lg {
+  max-width: 960px;
+}
+
 /* fine common */
 
 /* header */
@@ -63,4 +67,11 @@ header .bottom a:last-child {
 
 /* main */
 
+main h4 {
+  margin-top: 64px;
+}
+
+main p {
+  padding-top: 20px;
+}
 /* fine main */
