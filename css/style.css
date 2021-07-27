@@ -10,6 +10,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+/*! da togliere */
 .debug {
   border: 1px solid greenyellow;
   min-height: 20px;
@@ -75,3 +76,35 @@ main p {
   padding-top: 20px;
 }
 /* fine main */
+
+/* footer */
+footer {
+  background-color: #f5f5f5;
+  margin-top: 40px;
+}
+
+footer .left ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: grey;
+}
+
+footer .left ul li, footer .left ul i {
+  margin-right: 10px;
+}
+
+footer .left li {
+  font-size: 0.8rem;
+}
+
+footer .left i {
+  font-size: 2px;
+}
+
+footer .right .btn {
+  padding: 0 10px;
+  width: 150px;
+}
+
+/* fine footer */

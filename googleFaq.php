@@ -121,7 +121,27 @@ $faq = [
 </main>
 
 <footer>
-  <div class="container-fluid">
+  <div class="container-lg py-3 d-flex justify-content-between">
+
+    <div class="left">
+      <ul class="d-flex align-items-center">
+        <li>Google</li>
+        <i class="fas fa-circle"></i>
+        <li>Tutto su Google</li>
+        <i class="fas fa-circle"></i>
+        <li>Privacy</li>
+        <i class="fas fa-circle"></i>
+        <li>Termini</li>
+      </ul>
+    </div>
+
+    <div class="right d-flex align-items-center">
+      <i class="fas fa-globe"></i>
+      <div class="btn btn-outline-secondary d-flex justify-content-between align-items-center ms-2">
+        Italiano
+        <i class="fas fa-angle-down"></i>
+      </div>
+    </div>
 
   </div>
 </footer>
