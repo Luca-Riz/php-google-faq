@@ -63,18 +63,68 @@ $faq = [
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <!-- link fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- link bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <!-- link font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com"   crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital, wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <title>Google faq</title>
 </head>
 <body>
 
-<?php
-  foreach($faq as $singleFaq){ ?>
+<header>
+  <div class="container-fluid">
+    <div class="top d-flex justify-content-between">
+      <div class="left d-flex align-items-center m-3">
+        <img src="img/google.png" alt="logo google">
+        <div>
+          <strong class="ms-3">Privacy e termini</strong> 
+        </div>
+      </div>
 
-  <h2><?php echo $singleFaq['domanda']; ?></h2>
-  <p><?php echo $singleFaq['risposta']; ?></p>
+      <div class="right d-flex align-items-center m-3">
+        <i class="fas fa-th"></i>
+        <div class="ava ms-3">
+          <img src="img/avatar.webp" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="bottom d-flex justify-content-start">
+      <a href="#">Introduzione</a>
+      <a href="#">Norme sulla privacy</a>
+      <a href="#">Termini di servizio</a>
+      <a href="#">Tecnologie</a>
+      <a href="#">Domande frequenti</a>
+    </div>
+  </div>
+</header>
 
-  <?php }
-?>
+<main>
+  <div class="container">
+
+    <?php
+      foreach($faq as $singleFaq){ ?>
+
+      <h4><?php echo $singleFaq['domanda']; ?></h4>
+      <p><?php echo $singleFaq['risposta']; ?></p>
+
+      <?php }
+    ?>
+
+  </div>
+
+</main>
+
+<footer>
+  <div class="container-fluid">
+
+  </div>
+</footer>
   
 </body>
 </html>

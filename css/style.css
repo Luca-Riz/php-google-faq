@@ -1,0 +1,54 @@
+/* common */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.debug {
+  border: 1px solid greenyellow;
+  min-height: 20px;
+}
+
+/* fine common */
+
+header .top strong {
+  font-size: 24px;
+  color: rgb(75, 75, 75);
+}
+
+header .top .left img {
+  height: 24px;
+}
+
+header .top .ava {
+  position: relative;
+  background-color: greenyellow;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+}
+
+header .top .right img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 20px;
+
+}
+
+header .bottom {
+  border-bottom: 1px solid grey;
+}
+
+header .bottom a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+  color: rgb(75, 75, 75);
+}
