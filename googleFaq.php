@@ -95,11 +95,11 @@ $faq = [
       </div>
     </div>
     <div class="bottom d-flex justify-content-start">
-      <a href="#">Introduzione</a>
-      <a href="#">Norme sulla privacy</a>
-      <a href="#">Termini di servizio</a>
-      <a href="#">Tecnologie</a>
-      <a href="#">Domande frequenti</a>
+      <a href="#" class="mx-3">Introduzione</a>
+      <a href="#" class="mx-3">Norme sulla privacy</a>
+      <a href="#" class="mx-3">Termini di servizio</a>
+      <a href="#" class="mx-3">Tecnologie</a>
+      <a href="#" class="mx-3 pb-2">Domande frequenti</a>
     </div>
   </div>
 </header>

@@ -17,6 +17,7 @@ body {
 
 /* fine common */
 
+/* header */
 header .top strong {
   font-size: 24px;
   color: rgb(75, 75, 75);
@@ -40,10 +41,10 @@ header .top .right img {
   left: 50%;
   transform: translate(-50%, -50%);
   height: 20px;
-
+  
 }
 
-header .bottom {
+header {
   border-bottom: 1px solid grey;
 }
 
@@ -51,4 +52,15 @@ header .bottom a {
   color: inherit; /* blue colors for links too */
   text-decoration: inherit; /* no underline */
   color: rgb(75, 75, 75);
+  font-weight: 500;
 }
+
+header .bottom a:last-child {
+  color: #3367d6;
+  border-bottom: 3px solid #3367d6;
+}
+/* fine header */
+
+/* main */
+
+/* fine main */
