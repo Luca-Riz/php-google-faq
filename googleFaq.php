@@ -112,14 +112,14 @@ $faq = [
 <main>
   <div class="container-lg">
 
-
-
     <?php
       foreach($faq as $singleFaq){ ?>
 
-      <h4><?php foreach($singleFaq['domanda'] as $domanda){
-        echo $domanda;
-      } ?></h4>
+      <?php foreach($singleFaq['domanda'] as $domanda){ ?>
+        <h4>
+          <?php echo $domanda; ?>
+          <?php } ?>
+        </h4>
 
       <!-- essendo "risposta" un array di oggetti, lo ciclo per creare più paragrafi ed avere la giusta spaziatura -->
       <?php foreach($singleFaq['risposta'] as $risposta){ ?> 
